@@ -1,2 +1,0 @@
-# Barbarapinho
-Evento 
