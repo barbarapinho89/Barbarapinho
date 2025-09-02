@@ -4,9 +4,7 @@ Corrida de Rua 5K,
 Feira de Artesanato,
 Torneio de Futebol Amador,
 Aula de Yoga ao Ar Livre,
-  ;  // botei no plural sem querer mas ta valendo
-
-    public static CategoriaEvento pegar(String txt){
+   public static CategoriaEvento pegar(String txt){
         try{
             return CategoriaEvento.valueOf(txt.toUpperCase());
         } catch(Exception e){
